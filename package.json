@@ -1,0 +1,23 @@
+{
+  "name": "03-express-hello-world.md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express-hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./express-hello-world.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyakamesh/03-express-hello-world.md.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyakamesh/03-express-hello-world.md/issues"
+  },
+  "homepage": "https://github.com/priyakamesh/03-express-hello-world.md#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
