@@ -1,8 +1,9 @@
 'use strict';
 
+require('dotenv').config();
 const express = require('express');
 const app = express ();
-var port = process.env.PORT
+const port = process.env.PORT || 8080;
 console.log("port",port);
 const dateTime = (req,res,next)=>{
   req.dateTimeNow = new Date();
@@ -16,4 +17,6 @@ app.get('/time',(req,res)=>{
   res.send(`${req.dateTimeNow.toISOString()}`)
 })
 
-app.listen(port||8080);
+app.listen(port,()=>{
+  console.log(`server listening to ${port}`)
+});

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/priyakamesh/03-express-hello-world.md#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "express": "^4.15.2"
   }
 }
